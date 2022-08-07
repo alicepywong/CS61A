@@ -5,7 +5,7 @@ test = {
     {
       'cases': [
         {
-          'answer': '6d36cf85dceafad42b3816d0df5734e3',
+          'answer': 'A player and a message (in that order).',
           'choices': [
             'A message.',
             'A player.',
@@ -13,7 +13,7 @@ test = {
             'A player and a message (in that order).'
           ],
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False,
           'question': 'What does a commentary function return?'
         }
@@ -53,13 +53,12 @@ test = {
           >>> def echo(s0, s1, player=None):
           ...     return player, f"{s0} {s1}" # message of the form: "s0 s1"
           >>> s0, s1 = play(always_roll(1), always_roll(1), dice=make_test_dice(3), goal=6, say=echo) # Remember pigs on prime!
-          791e80e4872c37c0b77421f6211d8e54
-          6e3b797d0348d34c68cc3caeb6bc49f7
-          5a7d3511c2b271dc7566cdcc93c504e9
-          # locked
+          5 0
+          5 5
+          8 5
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {
