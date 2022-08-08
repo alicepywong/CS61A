@@ -82,9 +82,8 @@ def fizzbuzz(n):
         else:
             print(i)
 
+
 # Q6: Unique Digits
-
-
 def unique_digits(n):
     """Return the number of unique digits in positive integer n.
 
