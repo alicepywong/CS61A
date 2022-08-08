@@ -73,7 +73,6 @@ def merge(n1, n2):
     3211
     """
     "*** YOUR CODE HERE ***"
-    print(n1, n2)
     if n1 == 0:
         return n2
     elif n2 == 0:
